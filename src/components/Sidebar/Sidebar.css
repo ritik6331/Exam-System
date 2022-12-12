@@ -1,0 +1,113 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+/* Position and sizing of burger button */
+.bm-burger-button {
+  position: fixed;
+  width: 36px;
+  height: 30px;
+  left: 20px;
+  top: 15px;
+  
+}
+
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+  background: #231f20;
+}
+
+/* Color/shape of burger icon bars on hover*/
+.bm-burger-bars-hover {
+  background: rgb(78, 78, 81);
+}
+
+/* Position and sizing of clickable cross button */
+/* .bm-cross-button {
+  height: 24px;
+  width: 24px;
+} */
+
+/* Color/shape of close button cross */
+/* .bm-cross {
+  background: #bdc3c7;
+} */
+
+/*
+Sidebar wrapper styles
+Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
+*/
+.bm-menu-wrap {
+  position: relative;
+  top:0px;
+  height: 100%;
+}
+
+/* General sidebar styles */
+.bm-menu {
+  /* background: #373a47; */
+  background: #231f20;
+  /* padding: 2.5em 1.5em 0; */
+  padding-top: 20px;
+  font-size: x-large;
+  width: 80px;
+}
+
+/* Morph shape necessary with bubble or elastic */
+/* .bm-morph-shape {
+  fill: #1537cd;
+} */
+
+/* Wrapper for item list */
+.bm-item-list {
+  color: #b8b7ad;
+  /* padding: 0.8em; */
+  
+}
+
+/* Individual item */
+.bm-item {
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  display: inline-block;
+  color: #d1d1d1;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 20px;
+  /* margin-bottom: 15px; */
+  text-align: center;
+  text-decoration: none;
+}
+.bm-item div {
+  font-size: small;
+}
+
+.bm-item:hover {
+  color: black;
+  background: rgba(242, 242, 242, 0.5);
+  font-size: larger;
+  font-weight: 600;
+  /* text-shadow: 0px 4px 10px rgba(0, 0, 0, 0.8); */
+  /* background-image: linear-gradient(to left, #846969, #d39393); */
+  border: 2px solid transparent;
+  border-radius: 20px;
+  transform: scale(1.01);
+}
+
+/* Styling of overlay */
+.bm-overlay {
+  top:0px;
+  background: rgba(0, 0, 0, 0.3);
+
+}
+
+/* .hide {
+  display: none;
+} */
+
+/* .myDIV:hover + .hide {
+  display: block;
+  color: red;
+} */
+
+
+
